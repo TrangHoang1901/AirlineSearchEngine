@@ -1,0 +1,10 @@
+@use '/src/scss' as *;
+
+.title{
+    color: $primary-color;
+    font-size: 22px;
+    font-weight: 500;
+    padding-bottom: 12px;
+    border-bottom: solid 1px $primary-color;
+    width: 600px;
+}

@@ -1,0 +1,37 @@
+@use '/src/scss' as *;
+
+.App{
+    @include colFlex();
+    padding-bottom: 64px;
+}
+
+.menu{
+    @include rowFlex(auto);
+    gap: 100px;
+    
+    @extend .centerLayout;
+    margin-top: 32px;
+
+    > span{
+        color: $primary-color;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    > div{
+        @include rowFlex();
+    }
+}
+
+.main-page{
+    @extend .centerLayout;
+    @include colFlex(64px);
+
+    .query{
+        @include colFlex(20px);
+
+        .page-inputs{
+            @include rowFlex();
+        }
+    }
+}

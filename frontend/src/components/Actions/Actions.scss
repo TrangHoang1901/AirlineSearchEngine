@@ -1,0 +1,6 @@
+@use '/src/scss' as *;
+
+.actions{
+    @include rowFlex(16px);
+    margin-top: 12px;
+}

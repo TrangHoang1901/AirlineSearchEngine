@@ -1,0 +1,12 @@
+@use '/src/scss' as *;
+
+.radio-div{
+    @include colFlex(4px);
+    color: $primary-color;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.radio-div label{
+    margin-right: 16px;
+}

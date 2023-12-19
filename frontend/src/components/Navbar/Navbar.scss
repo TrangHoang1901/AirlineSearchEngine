@@ -1,0 +1,14 @@
+@use '/src/scss' as *;
+
+.top-navbar{
+    padding: 16px 48px;
+    background-color: #F9FAFA;
+    border-bottom: solid 5px $secondary-color-2;
+}
+
+.top-navbar span{
+    font-weight: 600;
+    font-size: 24px;
+    cursor: pointer;
+    color: $primary-color;
+}

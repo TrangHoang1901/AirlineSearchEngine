@@ -1,0 +1,16 @@
+@mixin colFlex($gp: 32px){
+    display: flex;
+    flex-direction: column;
+    gap: $gp;
+}
+
+@mixin rowFlex($gp: 32px){
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.centerLayout{
+    max-width: 1000px;
+    margin: auto;
+}
